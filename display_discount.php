@@ -1,8 +1,8 @@
 <?php
 
-	$product_description = product_description;
-	$list_price = list_price;
-	$discount_percent = discount_percent;
+	$product_description = $_POST('product_description');
+	$list_price = $_POST('list_price');
+	$discount_percent = $_POST('discount_percent');
 
 ?>
 
